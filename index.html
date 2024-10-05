@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cse clubs main page</title>
+    <link rel="stylesheet" href="./src/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+	<script>
+	 </script>
+	
+</head>
+<body >
+    <header>
+				<div class="container">
+					<nav class="navbar">
+						<ul class="sidebar" onmouseleave="hideBar()" >
+							
+							<i class="fa-solid fa-xmark fa-2x " onclick="hideBar()" ></i>
+							<br>
+							<li>
+								<a href="#home" class="navbar-link li" onclick="hideBar()">Home</a>
+							</li>
+		
+							<li>
+								<a href="#motto" class="navbar-link li" onclick="hideBar()">Motto</a>
+							</li>
+		
+							
+							<li>
+								<a href="#clubs" class="navbar-link li" onclick="hideBar()">Clubs</a>
+							</li>
+		
+							<li>
+								<a href="#overview" class="navbar-link li" onclick="hideBar()">Overview</a>
+							</li>
+		
+							<li>
+								<a href="#contact" class="navbar-link li" onclick="hideBar()">ContactUs</a>
+							</li>
+		
+						</ul>				
+					</nav>
+					<nav class="navbar">
+						<!--for the wrapping of nav bar-->
+						<ul class="navbar-list">
+							<li><a href="#" class="logo">
+								<img src="./src/images/rgm-logo3.png" alt="rgm logo">
+							</a></li>
+		
+							<li class="hideOnMobile">
+								<a href="#home" class="navbar-link">Home</a>
+							</li>
+		
+							<li class="hideOnMobile">
+								<a href="#motto" class="navbar-link">Motto</a>
+							</li>
+		
+							
+							<li class="hideOnMobile">
+								<a href="#clubs" class="navbar-link">Clubs</a>
+							</li>
+		
+							<li class="hideOnMobile">
+								<a href="#overview" class="navbar-link">Overview</a>
+							</li>
+		
+							<li class="hideOnMobile">
+								<a href="#contact" class="navbar-link li" >ContactUs</a>
+							</li>
+							<li><i onclick="showSidebar()" class="fa-solid fa-bars fa-2x menu-button" ></i></li>
+		
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<!--motto section of the project-->
+				<main>
+					<section class="sub-section" id="home">
+							<div class="intro">
+								<div class="intro-sub">
+									<centre><h2>The Club is where you can forget about 
+										yesterday and live fully in the present moment</h2>
+										<br><br>
+									<span><button class="btn">Register Here</button></span>
+									</centre>
+								</div>
+								<div class="logo">
+									<img src="./src/images/stamp-logo.png" alt="">
+								</div>
+					  </div><br>
+					</section>
+		
+					<section class="motto-section" id="motto">
+					  <div class="sub-motto">
+						<h2>Motto of the Clubs</h2>
+						<img src="./src/images/CRE8-desc.jpg" alt="" class="gather">
+						<br>
+						<h1>Description :</h1>
+						<ul>
+							<li>"Discover. Develop. Excel."This overarching motto encompasses the core themes of all your clubs</li>
+							<li><b>Discover:</b> Explore new interests, passions, and talents.</li>
+							<li><b>Develop:</b> Enhance your skills, build confidence, and grow as an individual.</li>
+							<li><b>Excel:</b> Strive for excellence in your chosen areas and make a positive impact.</li>
+						</ul>
+					  </div>
+					</section>
+	<!--clubs section-->
+		<section class="clubs-section" id="clubs">
+			<h1 class="h1">Clubs</h1>
+			<div class="sub-club">	  
+			  <div class="club-cards">
+				<div class="club-card">
+					<div class="club-img"><img src="./src/images/XCEL.jpg" alt="club1"/></div>
+					<div class="info">
+						<h1>XCEL</h1>
+						<p id="para">To equip students with essential technical skills and make  master in the fields of study and future careers.
+						</p>
+						
+                        <span><a href="#seemore"><button onClick="cardDisplay()" 
+							      facebook="https://www.facebook.com/profile.php?id=61566031752066&sfnsn=wiwspwa&mibextid=RUbZ1f"
+							      insta="https://www.instagram.com/rgmcse_xcel?utm_source=qr&igsh=OThwcTF4anVsMmF3" 
+								  youtube="https://www.youtube.com/@rgmcse_xcel"
+								  twitt="https://x.com/rgmcse78398?t=tLpXlpyk8XtqTnNFHzy5jg&s=08"
+								  head="K Pujith Kumar"
+								  banner="./src/images/XCEL-descr.jpg"
+								  profile="./src/images/Pujith.jpg"
+								  class="card">See More</button></a></span>
+					</div>
+				</div>
+				<div class="club-card">
+					<div class="club-img"><img src="./src/images/PULSE.jpg" alt="club1"/></div>
+					<div class="info">
+						<h1>PULSE</h1>
+						<p id="para">To develop and refine their communication abilities and to empower members with skills necessary for personal, academic, and professional settings.
+						</p>
+                        <span><a href="#seemore"><button onClick="cardDisplay()" 
+      facebook="https://www.facebook.com/profile.php?id=61566362373509&mibextid=kFxxJD"
+							      insta="https://www.instagram.com/rgmcse_pulse?igsh=MXFna2RrNGgxcDQ2aw==" 
+								  youtube="https://www.youtube.com/@rgmcse_pulse"
+								  twitt="https://x.com/rgmcse_pulse?t=aVUAPHcJFtZ1FLw73a7g_w&s=08"
+								  head="H.Lavanya"
+							banner="./src/images/PULSE-descr.jpg"
+							profile="./src/images/lavanya.jpg"
+							 class="card">See More</button></a></span>
+					</div>
+				</div>
+				<div class="club-card">
+					<div class="club-img"><img src="./src/images/CRE8.jpg" alt="club1"/></div>
+					<div class="info">
+						<h1>CRE8</h1>
+						<p id="para">To nurture students to get design abilities across various disciplines including graphic design, and digital media.</p>
+                        <span><a href="#seemore"><button onClick="cardDisplay()" 
+							facebook="https://www.facebook.com/rgmcsecre8?mibextid=ZbWKwL"
+							      insta="https://www.instagram.com/rgmcse_cre8?igsh=Nzk3bmpud3g2YWE2" 
+								  youtube="https://www.youtube.com/@rgmcse_cre8"
+								  twitt="https://x.com/rgmcse_cre8?t=Rclw_2k5vy22aCGj1bGexw&s=09"
+								  head="Mummidi Hithesh"
+							banner="./src/images/CRE8-desc.jpg"
+							profile="./src/images/.jpg"
+							 class="card">See More</button></a></span>
+					</div>
+				</div>
+				<div class="club-card">
+					<div class="club-img"><img src="./src/images/H2H.jpg" alt="club1"/></div>
+					<div class="info">
+						<h1>H2H</h1>
+						<p id="para">To develop students abilities to make a positive impact towards community service and social advocacy</p>
+                        <span><a href="#seemore"><button onClick="cardDisplay()" 
+							
+        facebook="https://www.facebook.com/profile.php?id=61566526046150&mibextid=ZbWKwL"
+							      insta="https://www.instagram.com/rgmcse_h2h_club?igsh=MTAwYzV2MTJ0bXZ4Mw==" 
+								  youtube="https://youtube.com/@rgmcse_h2h?si=JwJxZXZ00hW7re2i"
+								  twitt="https://x.com/rgmcse_h2h?t=0SUKZPdnaKVaJYkBCgoM7g&s=08"
+								  head="A Sai Sandeep"
+							    	banner="./src/images/H2H-desc.jpg"
+							       profile="./src/images/sandeep.jpg"
+							      class="card">See More</button></a></span>
+					</div>
+				</div>
+				<div class="club-card">
+					<div class="club-img"><img src="./src/images/inscribe.jpg" alt="club1"/></div>
+					<div class="info">
+						<h1>INSCRIBE</h1>
+						<p id="para">To help students master in  the art of effective content creation and to perform better in job interviews.</p>
+                        <span><a href="#seemore"><button onClick="cardDisplay()" 
+						    facebook="https://www.facebook.com/profile.php?id=61565970854205&mibextid=LQQJ4d"
+							      insta="https://www.instagram.com/rgmcse_inscirbe?igsh=MXRjeW5vaDE0MGpvZA%3D%3D&utm_source=qr" 
+								  youtube="https://youtube.com/@rgmcse_inscribe?si=Y1PwajXO4JK-o_dz"
+								  twitt="https://x.com/rgmcse_inscribe"
+								  head="P L Vardhan"
+							      banner="../src/images/inscribe-descr.jpg"
+							      profile="./src/images/vardhan.jpg"
+							      class="card">See More</button></a></span>
+					</div>
+				</div>
+				<div class="club-card">
+					<div class="club-img"><img src="./src/images/ZEN.jpg" alt="club1"/></div>
+					<div class="info">
+						<h1>ZEN</h1>
+						<p id="para">To create enjoyable experiences that helps students develop a variety of skills through fun and interactive activities</p>
+                        <span><button onClick="cardDisplay()" 
+							facebook="https://www.facebook.com/share/19Tgzz8zwp/?mibextid=qi2Omg"
+							      insta="https://www.instagram.com/rgmcse_zen/?hl=en#" 
+								  youtube="https://www.youtube.com/@rgmcse_zen"
+								  twitt="https://x.com/rgmcse_zen?t=a9XcB-NPmeVq0m44yZySTg&s=09"
+								  head="A.Sahithi"
+							banner="./src/images/ZEN-descr.jpg"
+							profile="./src/images/sahithi.jpg"
+							 class="card">See More</button></span>
+					</div>
+				</div>
+				
+			  </div>
+			</div>
+			
+		  </section>
+
+	
+		  <div id="see-more">
+			<h1>
+			   ramakrishna
+			</h1>
+	   </div>
+		  <div id="see-more">
+			<h1>
+			   ramakrishna
+			</h1>
+	   </div>
+		  <section class="overview" id="overview">
+			<div>
+				<h1>Overview</h1>
+				<iframe width="100%" height="800vh" src="https://www.youtube.com/embed/8tnAanw9S1o?si=YTLXIebFGXyRJkaL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></iframe></div>
+
+
+		  </section>
+		  <br/>
+		  
+	</main>
+	<section class="contact-us" id="contact">
+		<!--button id="footer-button" onClick="footerDisplay()">ContactUs</button-->
+		<footer class="footer">
+			<div class="container-footer"><br/>
+			<h3>Developed By Dynaminc Dreamers with Love <i style="color:rgb(129, 3, 3)" class="fa-solid fa-heart  fa-2x"></i>
+				<i class="fa-regular fa-heart fa-2x"style="color:rgb(129, 3, 3)" ></i></h3><br>
+			<p id="devp"> <a href="https://www.linkedin.com/in/naga-raju-24282827a/" style="text-decoration: none;">Nagaraju</a>|<a href="https://www.linkedin.com/in/boyaravikumar42/" style="text-decoration: none;">Ravi kumar</a>|<a href="https://www.linkedin.com/in/somala-ramakrishna/" style="text-decoration: none;">Ramakrishna </a> </p>
+			<br/><h3 style="font-weight:bold;padding-bottom: 0px;">KEEP IN TOUCH WITH US</h3><br/>
+			<div class="social-media">
+				<a href="#"><img src="./src/images/facebook.png" style="width:40px" class="facebook"></a>
+				<a href="#"><img src="./src/images/email.png" style="width:40px" class="mail"></a>
+				<a href="#"><i class="fa-brands fa-instagram " style="color:black;font-size:40px;"></i></a>
+				<a href="#"><i class="fa-brands fa-youtube" style="color:black;font-size:40px;"></i></a>
+			</div>
+		   
+			<div class="reserved"><p><span>@2024 cseclubs </span><span >All rights reserved.</span > </p><br>
+			</div>
+			</div>
+		</footer>
+	  </section> 
+	<script src="./src/script.js"></script>  
+</body>
+</html>

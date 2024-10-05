@@ -1,0 +1,518 @@
+
+
+/******************************************
+
+# clubs project css code
+
+*******************************************/
+:root{
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-image: url("../images/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+/*********************************************
+navbar
+********************************************/
+.logo img{
+    width:50px;
+    height:50px;  
+}
+nav{
+    background-color: blueviolet;
+    z-index: 500;
+    box-shadow: -10px 0 10px rgba(6, 6, 6, 0.227);
+    
+}
+nav .navbar-list{
+    position: fixed;
+    background-color:  blueviolet;
+    z-index: 99;
+}
+ nav ul{
+    width: 100%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:0 20px;
+    color: rgb(8, 8, 8);
+}
+ 
+nav ul li{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 650;
+    color: rgb(216, 189, 189);
+    
+}
+nav ul li a{
+    height:100%;
+    padding:5px 30px;
+    color:rgb(6, 6, 6);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+}
+nav a:hover{
+    color: beige;
+}
+nav li:first-child{
+    margin-right:auto;
+}
+/*----------------------------------
+side bar
+------------------------------*/
+.sidebar{
+    position: fixed;
+    top:0;
+    right: 0;
+    height:80vh;
+    width:300px;
+    z-index:999;
+    backdrop-filter: blur(50px);
+    box-shadow: -10px 0 10px rgba(6, 6, 6, 0.227);
+    display:none;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content: flex-start;
+
+}
+.sidebar li,.sidebar li{
+    width: 100vw;
+    padding-top:15px;
+}
+ .sidebar  
+{
+    transition:all 1s ease;
+}
+   
+.sidebar li:hover{
+    background-color: rgb(130, 102, 169);
+    border-radius: 15px;
+}
+.navbar .menu-button{
+    display: none;
+}
+@media  (max-width:850px){
+    .hideOnMobile{
+        display: none;
+    }
+    .navbar .menu-button{
+        display: block;
+   
+    }
+}
+@media  (max-width:500px){
+    .sidebar{
+        width: 100%;
+    }
+    
+}
+
+/*-------------------
+# second part
+---------------------*/
+main{
+   width:100%;
+}
+.sub-section{
+    border: 2px solid red;
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+    
+
+}
+.sub-section .intro{
+    width:100%;
+    height:90vh;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 450px 500px;
+    align-items: center;
+    justify-content:space-evenly;
+    /*padding:20px;*/
+}
+     .btn
+    {
+        color:aliceblue;
+        background-color: rgb(112, 22, 103);
+        border:none;
+        outline: none;
+        padding:10px 15px;
+        border-radius: 8px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: medium;
+        margin: 10px auto;
+    }
+    .btn:hover{
+        background: transparent;
+        border: 2px solid  rgb(112, 22, 103);
+        transition: all 1.7s ease;
+        color:rgb(112, 22, 103);
+    }
+    
+
+.sub-section .intro .intro-sub{
+     border:4px solid green; 
+    display: flex;
+    align-items: center;
+    gap:3px;
+    justify-content: center;
+    
+}
+.sub-section .intro .intro-sub h2{
+    font-size: 35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+    line-height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+.sub-section .intro .intro-sub span{
+    display: flex;
+    align-items: flex-start;
+    padding-left:50px;
+}
+
+.sub-section .intro img{
+    width:550px;
+    height:60vh;
+
+}
+@media (max-width:830px) {
+    .sub-section .intro{  
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+        .sub-section .intro img{
+            width:90vw;
+            height:60vh;
+        
+    }
+    .sub-section .intro .intro-sub h2{
+        position: relative;
+        top:40px;
+    }
+}
+/*-----------------------------*/
+main .motto-section{
+    width:100%;
+    border: 2px solid red;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+main .motto-section .gather{
+    max-width:800px;
+    width:90vw;
+    height:45vh;
+    border-radius: 20px;
+    border:8px solid rgb(147, 122, 171);
+}
+
+main .motto-section .sub-motto h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color:rgb(154, 23, 154);
+    text-align: center;
+    text-decoration: 5px underline rgb(108, 155, 186) ;
+    padding-bottom: 40px;
+}
+main .motto-section .sub-motto {
+padding: 10%;
+font-size: 20px;
+font-family:Arial, Helvetica, sans-serif;
+color: rgb(24, 2, 31);
+}
+
+main .motto-section .sub-motto ul{
+    padding-left: 45px;
+}
+main .motto-section .sub-motto ul li{
+    padding-top: 10px;
+    letter-spacing:2px;
+    max-width:900px;
+}
+main{
+    width:100%;
+    
+}
+/*---------------------------*/
+main .clubs-section{
+    border: 2px solid red;
+    height:auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+main .clubs-section .sub-club{
+    height:auto;
+   /*  border:2px solid red; */
+}
+main .clubs-section .h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color:rgb(99, 18, 99);
+    padding-bottom:40px;
+    padding-left: 150px;
+    text-align: center;
+    text-decoration: 5px underline rgb(108, 155, 186) ;
+}
+main .clubs-section .sub-club .club-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height:auto;
+    width:100vw;
+    padding-left:65px;
+    column-gap: 50px;
+    row-gap: 50px;
+    justify-content:space-between;
+    align-items: center;
+    /*padding-left: 25%;*/
+}
+
+@media (max-width:900px) {
+    main .clubs-section .sub-club .club-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }   
+}
+@media (max-width:700px) {
+    main .clubs-section .sub-club .club-cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 25%;
+        
+    } 
+    .sub-section .intro img{
+        width:500px;
+        height:55vh;
+    
+    }  
+}
+
+main .clubs-section .sub-club .club-cards .club-card{
+    display: flex;
+    width:350px;
+    
+    flex-wrap: wrap;
+    flex-direction:column;
+    background-image: linear-gradient(to left,rgb(45, 45, 142),rgb(200, 97, 169));
+    justify-content: space-between;
+    align-items: center;
+   /*  border: 0px solid rgb(71, 184, 22); */
+    box-shadow: 5px 10px 20px rgb(44, 42, 42);
+    border-radius: 5%;
+}
+main .clubs-section .sub-club .club-cards .club-card .club-img img{
+    padding-top:20px;
+    margin-top: 20px;
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+main .clubs-section .sub-club .club-cards .club-card .club-img img:hover{
+    animation: rotateImg 1s ease-out 0s infinite;
+    }
+    @keyframes rotateImg {
+        50%{
+            transform: rotate(180deg);
+            box-shadow: 0px 3px 10px white,1px 6px 150px rgb(225, 255, 0);
+        }
+        100%{
+            transform: rotate(360deg);  
+            box-shadow: 0px 3px 10px white,1px 6px 15px rgb(225, 255, 0);
+        }
+        
+    }
+    
+main .clubs-section .sub-club .club-cards .club-card .info{
+    padding-bottom: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .clubs-section .sub-club .club-cards .club-card .info h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#d5ba05;
+    text-shadow: 2px 5px 5px rgb(17, 3, 53);
+    font-weight: bold;
+
+}
+main .clubs-section .sub-club .club-cards .club-card .info #para{
+    font-size: 15px;
+    color:rgb(220, 216, 224);
+    padding: 0 20px;
+    text-decoration: center;
+}
+main .clubs-section .sub-club .club-cards .club-card .info .card{
+    padding:10px 30px;
+    margin:15px 0;
+    background-color: transparent;
+    border: none;
+    background-color:rgb(22, 2, 47);
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius:8px;
+    box-shadow: 2px 5px 10px rgb(40, 16, 195);
+}
+main .clubs-section .sub-club .club-cards .club-card .info .card:hover{
+    background-color:rgb(243, 4, 132);
+    background-color: transparent;
+    border: 2px solid rgb(241, 241, 237);
+    color:rgb(233, 232, 235);
+    box-shadow: 1px 5px 20px rgb(194, 194, 241);
+    transition: all 1s ease;
+
+}
+
+#see-more{
+    display: none;
+}
+
+
+
+/*---footer section----*/
+.container-footer{
+    width: 100%;
+    bottom: 0;
+    position: sticky;
+    text-align: center;
+    background-color:  blueviolet
+    }
+.reserved {
+    font-weight:bold;
+    text-align: center;
+    }
+/*.reserved p>span{
+    display:inline-block;
+    width:50%;
+    text-align: center;
+    }
+.reserved p>span:last-child{
+    text-align:center;
+    }
+#footer{
+    margin-bottom: -20px;
+}
+#footer-button{
+    padding: 10px;
+    border-radius: 20px;
+    background-image:linear-gradient(transparent,powderblue);
+    font-family:  Helvetica, sans-serif;
+    margin: 10px;
+}
+#footer-button:hover{
+    background-image:linear-gradient(transparent,red);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 0px;
+   transition: all 1s;
+}*/
+.social-media{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    justify-content: center;
+}
+.footer #devp,a{
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    color: rgb(210, 206, 203);
+    font-weight: bold;
+    cursor: pointer;
+}
+/*-----------------------------
+see more
+------------------------------*/
+.see-more{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 25px;
+    
+    padding-bottom: 25px;
+    box-shadow: 5px 10px 20px black;
+    align-self: center;
+}
+.see-more .image-section{
+    
+    height:auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.see-more .image-section #banner{
+width:70vw;
+height:450px;
+}
+.see-more .image-section .president-profile{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height:450;
+}
+.see-more .image-section .president-profile #profile{
+width:400px;
+height: 400px;
+/* border:2px solid blue; */
+}
+.see-more .image-section .president-profile #name{
+    font-size: 50px;
+    color:brown;
+}
+.see-more .social-media-part{
+    display: flex;
+    gap:1px;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.see-more .social-media-part .link{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1px;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+    box-shadow: 2px 5px 10px rgba(0, 128, 0, 0.405);    
+}
+.see-more .social-media-part .link a {
+    font-size: 15px;
+    color:violet;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    letter-spacing: 3px;    
+}
+.see-more .social-media-part .link a img{
+    vertical-align: middle;
+    
+}
+/*--------------*/
+.overview{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color:rgb(99, 18, 99);
+    padding-bottom:60px;
+    text-align: center;
+}
