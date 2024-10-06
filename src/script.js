@@ -3,6 +3,20 @@
  * this is the file for the javascript to the website
  *
  *******************************************************/
+	/***************************************************
+		* 
+		* typing text in the front page
+		* 
+		****************************************************/
+		var typed=new Typed(".text",{
+			strings:["CS innovative Clubs","CSE-Department","RGMCET","C I S C","EXCEL","PULSE","H 2 H","INSCRIBE","Z E N","C R E 8"],
+			typeSpeed:80,
+			backSpeed:80,
+			backDelay:800,
+			loop:true
+		})
+// --------------------------------------------
+
 const showSidebar=()=>
 {
     let sidebar= document.querySelector('.sidebar');

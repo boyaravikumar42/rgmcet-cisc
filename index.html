@@ -6,9 +6,7 @@
     <title>cse clubs main page</title>
     <link rel="stylesheet" href="./src/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-	<script>
-	 </script>
-	
+
 </head>
 <body >
     <header>
@@ -38,13 +36,12 @@
 							<li>
 								<a href="#contact" class="navbar-link li" onclick="hideBar()">ContactUs</a>
 							</li>
-		
 						</ul>				
 					</nav>
 					<nav class="navbar">
 						<!--for the wrapping of nav bar-->
-						<ul class="navbar-list">
-							<li><a href="#" class="logo">
+						 <ul class="navbar-list">
+							<li class="hide-logo-style"><a href="#" class="logo">
 								<img src="./src/images/rgm-logo3.png" alt="rgm logo">
 							</a></li>
 		
@@ -73,40 +70,41 @@
 						</ul>
 					</nav>
 				</div>
-			</header>
+			</header> 
 			<!--motto section of the project-->
 				<main>
 					<section class="sub-section" id="home">
 							<div class="intro">
 								<div class="intro-sub">
-									<centre><h2>The Club is where you can forget about 
+									<center><h2><span class="text" style="color: rgb(230, 207, 7);text-shadow:5px 5px 7px rgb(8, 1, 39);text-align: center;"></span></h2>
+										<h2>The Club is where you can forget about 
 										yesterday and live fully in the present moment</h2>
 										<br><br>
-									<span><button class="btn">Register Here</button></span>
-									</centre>
+									<span class="span1"><button class="btn"><a href="#">Register Here</a></button></span>
+									</center>
 								</div>
 								<div class="logo">
 									<img src="./src/images/stamp-logo.png" alt="">
 								</div>
 					  </div><br>
-					</section>
-		
+					</section> 
+		 
 					<section class="motto-section" id="motto">
 					  <div class="sub-motto">
 						<h2>Motto of the Clubs</h2>
-						<img src="./src/images/CRE8-desc.jpg" alt="" class="gather">
+						<img src="./src/images/CRE8-desc.jpg" alt="" class="gather-img">
 						<br>
 						<h1>Description :</h1>
 						<ul>
-							<li>"Discover. Develop. Excel."This overarching motto encompasses the core themes of all your clubs</li>
+							<li class="quotate">"Discover - Develop - Excel"This overarching motto encompasses the core themes of all our clubs</li>
 							<li><b>Discover:</b> Explore new interests, passions, and talents.</li>
 							<li><b>Develop:</b> Enhance your skills, build confidence, and grow as an individual.</li>
 							<li><b>Excel:</b> Strive for excellence in your chosen areas and make a positive impact.</li>
 						</ul>
 					  </div>
-					</section>
+					</section> 
 	<!--clubs section-->
-		<section class="clubs-section" id="clubs">
+		 <section class="clubs-section" id="clubs">
 			<h1 class="h1">Clubs</h1>
 			<div class="sub-club">	  
 			  <div class="club-cards">
@@ -122,7 +120,7 @@
 							      insta="https://www.instagram.com/rgmcse_xcel?utm_source=qr&igsh=OThwcTF4anVsMmF3" 
 								  youtube="https://www.youtube.com/@rgmcse_xcel"
 								  twitt="https://x.com/rgmcse78398?t=tLpXlpyk8XtqTnNFHzy5jg&s=08"
-								  head="K.Pujith Kumar"
+								  head="K Pujith Kumar"
 								  banner="./src/images/XCEL-descr.jpg"
 								  profile="./src/images/Pujith.jpg"
 								  class="card">See More</button></a></span>
@@ -135,14 +133,14 @@
 						<p id="para">To develop and refine their communication abilities and to empower members with skills necessary for personal, academic, and professional settings.
 						</p>
                         <span><a href="#seemore"><button onClick="cardDisplay()" 
-      facebook="https://www.facebook.com/profile.php?id=61566362373509&mibextid=kFxxJD"
-							      insta="https://www.instagram.com/rgmcse_pulse?igsh=MXFna2RrNGgxcDQ2aw==" 
-								  youtube="https://www.youtube.com/@rgmcse_pulse"
-								  twitt="https://x.com/rgmcse_pulse?t=aVUAPHcJFtZ1FLw73a7g_w&s=08"
-								  head="H.Lavanya"
-							banner="./src/images/PULSE-descr.jpg"
-							profile="./src/images/lavanya.jpg"
-							 class="card">See More</button></a></span>
+                        facebook="https://www.facebook.com/profile.php?id=61566362373509&mibextid=kFxxJD"
+						insta="https://www.instagram.com/rgmcse_pulse?igsh=MXFna2RrNGgxcDQ2aw==" 
+						youtube="https://www.youtube.com/@rgmcse_pulse"
+						twitt="https://x.com/rgmcse_pulse?t=aVUAPHcJFtZ1FLw73a7g_w&s=08"
+						head="H.Lavanya"
+						banner="./src/images/PULSE-descr.jpg"
+						profile="./src/images/lavanya.jpg"
+						class="card">See More</button></a></span>
 					</div>
 				</div>
 				<div class="club-card">
@@ -151,14 +149,16 @@
 						<h1>CRE8</h1>
 						<p id="para">To nurture students to get design abilities across various disciplines including graphic design, and digital media.</p>
                         <span><a href="#seemore"><button onClick="cardDisplay()" 
-							facebook="https://www.facebook.com/rgmcsecre8?mibextid=ZbWKwL"
+							      facebook="https://www.facebook.com/rgmcsecre8?mibextid=ZbWKwL"
 							      insta="https://www.instagram.com/rgmcse_cre8?igsh=Nzk3bmpud3g2YWE2" 
 								  youtube="https://www.youtube.com/@rgmcse_cre8"
 								  twitt="https://x.com/rgmcse_cre8?t=Rclw_2k5vy22aCGj1bGexw&s=09"
-								  head="Varun"
-							banner="./src/images/CRE8-desc.jpg"
-							profile="./src/images/varun.jpg"
-							 class="card">See More</button></a></span>
+								  head="Mummidi Hithesh"
+							      banner="./src/images/CRE8-desc.jpg"
+							      profile="./src/images/vardhan.jpg"
+							      class="card">See More</button>
+							  </a>
+						</span>
 					</div>
 				</div>
 				<div class="club-card">
@@ -167,14 +167,13 @@
 						<h1>H2H</h1>
 						<p id="para">To develop students abilities to make a positive impact towards community service and social advocacy</p>
                         <span><a href="#seemore"><button onClick="cardDisplay()" 
-							
-        facebook="https://www.facebook.com/profile.php?id=61566526046150&mibextid=ZbWKwL"
+							      facebook="https://www.facebook.com/profile.php?id=61566526046150&mibextid=ZbWKwL"
 							      insta="https://www.instagram.com/rgmcse_h2h_club?igsh=MTAwYzV2MTJ0bXZ4Mw==" 
 								  youtube="https://youtube.com/@rgmcse_h2h?si=JwJxZXZ00hW7re2i"
 								  twitt="https://x.com/rgmcse_h2h?t=0SUKZPdnaKVaJYkBCgoM7g&s=08"
-								  head="A.Sai Sandeep"
-							    	banner="./src/images/H2H-desc.jpg"
-							       profile="./src/images/sandeep.jpg"
+								  head="A Sai Sandeep"
+							      banner="./src/images/H2H-desc.jpg"
+							      profile="./src/images/sandeep.jpg"
 							      class="card">See More</button></a></span>
 					</div>
 				</div>
@@ -184,12 +183,12 @@
 						<h1>INSCRIBE</h1>
 						<p id="para">To help students master in  the art of effective content creation and to perform better in job interviews.</p>
                         <span><a href="#seemore"><button onClick="cardDisplay()" 
-						    facebook="https://www.facebook.com/profile.php?id=61565970854205&mibextid=LQQJ4d"
+						          facebook="https://www.facebook.com/profile.php?id=61565970854205&mibextid=LQQJ4d"
 							      insta="https://www.instagram.com/rgmcse_inscirbe?igsh=MXRjeW5vaDE0MGpvZA%3D%3D&utm_source=qr" 
 								  youtube="https://youtube.com/@rgmcse_inscribe?si=Y1PwajXO4JK-o_dz"
 								  twitt="https://x.com/rgmcse_inscribe"
 								  head="P L Vardhan"
-							      banner="../src/images/inscribe-descr.jpg"
+							      banner="./src/images/inscribe-descr.jpg"
 							      profile="./src/images/vardhan.jpg"
 							      class="card">See More</button></a></span>
 					</div>
@@ -214,13 +213,13 @@
 			  </div>
 			</div>
 			
-		  </section>
+		  </section> 
 
 	
-		  <div id="see-more">
+		  <!-- <div id="see-more">
 			<h1>
 			   ramakrishna
-			</h1>
+			</h1> -->
 	   </div>
 		  <div id="see-more">
 			<h1>
@@ -230,19 +229,25 @@
 		  <section class="overview" id="overview">
 			<div>
 				<h1>Overview</h1>
-				<iframe width="100%" height="800vh" src="https://www.youtube.com/embed/8tnAanw9S1o?si=YTLXIebFGXyRJkaL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></iframe></div>
-
-
+				<iframe width="100%"
+				 height="800vh" 
+				 src="https://www.youtube.com/embed/8tnAanw9S1o?si=YTLXIebFGXyRJkaL" 
+				 title="YouTube video player" 
+				 frameborder="0" 
+				 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+				 referrerpolicy="strict-origin-when-cross-origin" 
+				 allowfullscreen>
+				</iframe>
+			</div>
 		  </section>
-		  <br/>
-		  
+	<br/>	  
 	</main>
 	<section class="contact-us" id="contact">
 		<!--button id="footer-button" onClick="footerDisplay()">ContactUs</button-->
 		<footer class="footer">
 			<div class="container-footer"><br/>
-			<h3>Developed By Dynaminc Dreamers with Love <i style="color:rgb(129, 3, 3)" class="fa-solid fa-heart  fa-2x"></i>
-				<i class="fa-regular fa-heart fa-2x"style="color:rgb(129, 3, 3)" ></i></h3><br>
+			<h3>Developed By Dynaminc Dreamers Team Members <!-- <i style="color:rgb(129, 3, 3)" class="fa-solid fa-heart  fa-2x"></i> -->
+				<!-- <i class="fa-regular fa-heart fa-2x"style="color:rgb(129, 3, 3)" ></i> --></h3><br>
 			<p id="devp"> <a href="https://www.linkedin.com/in/naga-raju-24282827a/" style="text-decoration: none;">Nagaraju</a>|<a href="https://www.linkedin.com/in/boyaravikumar42/" style="text-decoration: none;">Ravi kumar</a>|<a href="https://www.linkedin.com/in/somala-ramakrishna/" style="text-decoration: none;">Ramakrishna </a> </p>
 			<br/><h3 style="font-weight:bold;padding-bottom: 0px;">KEEP IN TOUCH WITH US</h3><br/>
 			<div class="social-media">
@@ -257,6 +262,7 @@
 			</div>
 		</footer>
 	  </section> 
+	  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 	<script src="./src/script.js"></script>  
 </body>
 </html>
