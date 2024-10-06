@@ -42,10 +42,10 @@ const hideBar=()=>
 					    <img src=${banner} alt="banner" id="banner" />
 					</div>
 			        <div class="social-media-part">
-						<div class="link"><a href=${facebook}><img src="../images/facebook.png" style="width:40px" class="facebook" alt="facebook"></a><a href=${facebook} id="text-link"><p>www.facebook.com</p></a></div>
-						<div class="link"><a href=${twitt}><img src="../images/email.png" style="width:40px" class="twit" alt="twitter" ></a><a href=${insta} id="text-link"><p>www.twitter.com</p></a></div>
-						<div class="link"><a href=${insta}><img src="../images/instagram (1).png"  style="width:40px" class="instagram" alt="instagram"></a><a href=${insta} id="text-link"><p>www.instagram.com</p></a></div>
-						<div class="link"><a href=${youtube}><img src="../images/youtube (1).png"  style="width:40px" class="youtube" alt="youtube"></a><a href=${insta} id="text-link"><p>www.youtube.com</p></a></div>
+						<div class="link"><a href=${facebook}><img src="./src/images/facebook.png" style="width:40px" class="facebook" alt="facebook"></a><a href=${facebook} id="text-link"><p>www.facebook.com</p></a></div>
+						<div class="link"><a href=${twitt}><img src="./src/images/email.png" style="width:40px" class="twit" alt="twitter" ></a><a href=${insta} id="text-link"><p>www.twitter.com</p></a></div>
+						<div class="link"><a href=${insta}><img src="./src/images/instagram (1).png"  style="width:40px" class="instagram" alt="instagram"></a><a href=${insta} id="text-link"><p>www.instagram.com</p></a></div>
+						<div class="link"><a href=${youtube}><img src="./src/images/youtube (1).png"  style="width:40px" class="youtube" alt="youtube"></a><a href=${insta} id="text-link"><p>www.youtube.com</p></a></div>
 					</div>
 			</div>`; // Replace with actual card information
         			
